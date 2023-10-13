@@ -66,12 +66,8 @@ ul{
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 4px solid var(--white-color);
+    border: 4px solid white;
     bottom: -29px;
-}
-.sidebar ul li a:hover,
-.sidebar ul li a.active{
-    background-color: #dddddd60;
 }
 .sidebar ul li a{
     transition: var(--main-transition);
@@ -84,16 +80,24 @@ ul{
 }
 @media(max-width: 767px){
     .sidebar{
-        width: 58px;
+        width: 80px;
         padding: 10px;
     }
     .sidebar h3{
         font-size: 13px;
-        margin-bottom: 15px;
+        margin-bottom: 40px;
+        margin-top: 10px;
     }
-    .sidebar h3::before,
+    .sidebar h3::before{
+        width: 100%;
+    }
     .sidebar h3::after{
-        display: none;
+        width: 10px;
+        height: 10px;
+    }
+    .sidebar ul li a{
+        font-size: 20px;
+        margin-left: 12px;
     }
     .sidebar ul li a span{
         display: none;
@@ -170,7 +174,6 @@ ul{
 }
 .truth-story .images .img .one{
     height: 315.84px;
-    margin-right: 30px;
 }
 .truth-story .images p{
     font-size: 18px;
@@ -178,14 +181,17 @@ ul{
 @media(max-width: 767px){
     .truth-story .images .img img{
         width: 300px;
-        margin-left: -80px;
+        margin-left: -95px;
     }
     .truth-story .images .img .one{
         height: 100%;
     }
+    .truth-story .intro h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
     .truth-story .intro p{
-        font-size: 13px;
-        line-height: 1.6;
+        font-size: 16px;
     }
 }
 /* End Truth Story */
