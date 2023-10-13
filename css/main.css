@@ -207,7 +207,7 @@ ul{
 .our-media .medias{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    margin: 80px 40px;
+    margin: 80px 30px;
     gap: 40px;
 }
 @media(max-width: 970px){
