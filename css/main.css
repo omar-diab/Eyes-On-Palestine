@@ -171,7 +171,6 @@ ul{
         text-align: center;
         font-size: 20px;
         padding-bottom: 20px;
-        text-transform: uppercase;
         width: 250px;
         margin-left: -45px;
     }
@@ -180,7 +179,6 @@ ul{
         font-size: 25px;
         width: 250px;
         margin-left: -40px;
-        text-transform: uppercase;
     }
     .truth-story .jews-origin p{
         font-size: 13px;
@@ -205,7 +203,6 @@ ul{
         font-size: 25px;
         width: 250px;
         margin-left: -40px;
-        text-transform: uppercase;
     }
     .truth-story .pal-origin p{
         font-size: 13px;
@@ -239,6 +236,7 @@ ul{
     padding-top: 20px;
     color: var(--green-color);
     font-weight: bold;
+    text-transform: uppercase;
 }
 @media(max-width: 768px){
     .truth-story .explain-1 p{
@@ -272,6 +270,7 @@ ul{
     padding-top: 20px;
     color: var(--red-color);
     font-weight: bold;
+    text-transform: uppercase;
 }
 @media(max-width: 768px){
     .truth-story .explain-2{
@@ -288,6 +287,584 @@ ul{
     }
 }
 /* End Truth Story */
+/* Start Wars */
+.wars{
+    padding: 30px;
+    margin: 50px;
+    color: var(--white-color);
+}
+.wars p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+@media(max-width: 768px){
+    .wars p{
+        line-height: 1.6;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+.wars h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin: 40px 100px 0;
+    text-transform: uppercase;
+}
+@media(max-width: 768px){
+    .wars h2{
+        font-size: 25px;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+.wars .al-furqan h3{
+    text-transform: uppercase;
+    color: red;
+    font-size: 18px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+@media(max-width: 768px){
+    .wars .al-furqan h3{
+        font-size: 20px;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+.wars .al-furqan .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px , 1fr));
+    gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.wars .al-furqan .images img{
+    width: 500px;
+    height: 300px;
+}
+@media(max-width: 767px){
+    .wars .al-furqan .images img{
+        align-items: center;
+        width: 300px;
+    }
+    .wars .al-furqan .images p{
+        margin: 20px auto;
+    }
+}
+.wars .al-furqan .victims h2{
+    color: var(--green-color);
+    text-align: center;
+    padding: 30px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media(max-width: 767px){
+    .wars .al-furqan .victims h2{
+        font-size: 25px;
+        width: 400px;
+        margin-left: -110px;
+    }
+}
+.wars .al-furqan .victims .deaths{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .al-furqan .victims .deaths p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .al-furqan .victims .deaths{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .al-furqan .victims .wounded{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .al-furqan .victims .wounded p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .al-furqan .victims .wounded{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .stones-al-sagel h3{
+    text-transform: uppercase;
+    color: red;
+    font-size: 18px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+@media(max-width: 768px){
+    .wars .stones-al-sagel h3{
+        font-size: 20px;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+.wars .stones-al-sagel .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px , 1fr));
+    gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.wars .stones-al-sagel .images img{
+    width: 500px;
+    height: 300px;
+}
+@media(max-width: 767px){
+    .wars .stones-al-sagel .images img{
+        align-items: center;
+        width: 300px;
+    }
+    .wars .stones-al-sagel .images p{
+        margin: 20px auto;
+    }
+}
+.wars .stones-al-sagel .victims h2{
+    color: var(--green-color);
+    text-align: center;
+    padding: 30px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media(max-width: 767px){
+    .wars .stones-al-sagel .victims h2{
+        font-size: 25px;
+        width: 400px;
+        margin-left: -110px;
+    }
+}
+.wars .stones-al-sagel .victims .deaths{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .stones-al-sagel .victims .deaths p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .stones-al-sagel .victims .deaths{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .stones-al-sagel .victims .wounded{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .stones-al-sagel .victims .wounded p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .stones-al-sagel .victims .wounded{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .al-Osf-al-Macol h3{
+    text-transform: uppercase;
+    color: red;
+    font-size: 18px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+@media(max-width: 768px){
+    .wars .al-Osf-al-Macol h3{
+        font-size: 20px;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+.wars .al-Osf-al-Macol .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px , 1fr));
+    gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.wars .al-Osf-al-Macol .images img{
+    width: 500px;
+    height: 300px;
+}
+@media(max-width: 767px){
+    .wars .al-Osf-al-Macol .images img{
+        align-items: center;
+        width: 300px;
+    }
+    .wars .al-Osf-al-Macol .images p{
+        margin: 20px auto;
+    }
+}
+.wars .al-Osf-al-Macol .victims h2{
+    color: var(--green-color);
+    text-align: center;
+    padding: 30px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media(max-width: 767px){
+    .wars .al-Osf-al-Macol .victims h2{
+        font-size: 25px;
+        width: 400px;
+        margin-left: -110px;
+    }
+}
+.wars .al-Osf-al-Macol .victims .deaths{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .al-Osf-al-Macol .victims .deaths p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .al-Osf-al-Macol .victims .deaths{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .al-Osf-al-Macol .victims .wounded{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .al-Osf-al-Macol .victims .wounded p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .al-Osf-al-Macol .victims .wounded{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .syhet-al-fajr h3{
+    text-transform: uppercase;
+    color: red;
+    font-size: 18px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+@media(max-width: 768px){
+    .wars .syhet-al-fajr h3{
+        font-size: 20px;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+.wars .syhet-al-fajr .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px , 1fr));
+    gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.wars .syhet-al-fajr .images img{
+    width: 500px;
+    height: 300px;
+}
+@media(max-width: 767px){
+    .wars .syhet-al-fajr .images img{
+        align-items: center;
+        width: 300px;
+    }
+    .wars .syhet-al-fajr .images p{
+        margin: 20px auto;
+    }
+}
+.wars .syhet-al-fajr .victims h2{
+    color: var(--green-color);
+    text-align: center;
+    padding: 30px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media(max-width: 767px){
+    .wars .syhet-al-fajr .victims h2{
+        font-size: 25px;
+        width: 400px;
+        margin-left: -110px;
+    }
+}
+.wars .syhet-al-fajr .victims .deaths{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .syhet-al-fajr .victims .deaths p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .syhet-al-fajr .victims .deaths{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .syhet-al-fajr .victims .wounded{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .syhet-al-fajr .victims .wounded p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .syhet-al-fajr .victims .wounded{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .saif-al-quds h3{
+    text-transform: uppercase;
+    color: red;
+    font-size: 18px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+@media(max-width: 768px){
+    .wars .saif-al-quds h3{
+        font-size: 20px;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+.wars .saif-al-quds .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px , 1fr));
+    gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.wars .saif-al-quds .images img{
+    width: 500px;
+    height: 300px;
+}
+@media(max-width: 767px){
+    .wars .saif-al-quds .images img{
+        align-items: center;
+        width: 300px;
+    }
+    .wars .saif-al-quds .images p{
+        margin: 20px auto;
+    }
+}
+.wars .saif-al-quds .victims h2{
+    color: var(--green-color);
+    text-align: center;
+    padding: 30px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media(max-width: 767px){
+    .wars .saif-al-quds .victims h2{
+        font-size: 25px;
+        width: 400px;
+        margin-left: -110px;
+    }
+}
+.wars .saif-al-quds .victims .deaths{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .saif-al-quds .victims .deaths p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .saif-al-quds .victims .deaths{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .saif-al-quds .victims .wounded{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .saif-al-quds .victims .wounded p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .saif-al-quds .victims .wounded{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .wahdet-al-sahat h3{
+    text-transform: uppercase;
+    color: red;
+    font-size: 18px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+@media(max-width: 768px){
+    .wars .wahdet-al-sahat h3{
+        font-size: 20px;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+.wars .wahdet-al-sahat .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px , 1fr));
+    gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.wars .wahdet-al-sahat .images img{
+    width: 500px;
+    height: 300px;
+}
+@media(max-width: 767px){
+    .wars .wahdet-al-sahat .images img{
+        align-items: center;
+        width: 300px;
+    }
+    .wars .wahdet-al-sahat .images p{
+        margin: 20px auto;
+    }
+}
+.wars .wahdet-al-sahat .victims h2{
+    color: var(--green-color);
+    text-align: center;
+    padding: 30px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media(max-width: 767px){
+    .wars .wahdet-al-sahat .victims h2{
+        font-size: 25px;
+        width: 400px;
+        margin-left: -110px;
+    }
+}
+.wars .wahdet-al-sahat .victims .deaths{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .wahdet-al-sahat .victims .deaths p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .wahdet-al-sahat .victims .deaths{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .wahdet-al-sahat .victims .wounded{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .wahdet-al-sahat .victims .wounded p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .wahdet-al-sahat .victims .wounded{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .tufan-al-aksa h3{
+    text-transform: uppercase;
+    color: red;
+    font-size: 18px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+@media(max-width: 768px){
+    .wars .tufan-al-aksa h3{
+        font-size: 20px;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+.wars .tufan-al-aksa .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px , 1fr));
+    gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.wars .tufan-al-aksa .images img{
+    width: 500px;
+    height: 300px;
+}
+@media(max-width: 767px){
+    .wars .tufan-al-aksa .images img{
+        align-items: center;
+        width: 300px;
+    }
+    .wars .tufan-al-aksa .images p{
+        margin: 20px auto;
+    }
+}
+.wars .tufan-al-aksa .victims h2{
+    color: var(--green-color);
+    text-align: center;
+    padding: 30px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media(max-width: 767px){
+    .wars .tufan-al-aksa .victims h2{
+        font-size: 25px;
+        width: 400px;
+        margin-left: -110px;
+    }
+}
+.wars .tufan-al-aksa .victims .deaths{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .tufan-al-aksa .victims .deaths p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .tufan-al-aksa .victims .deaths{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .tufan-al-aksa .victims .wounded{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wars .tufan-al-aksa .victims .wounded p{
+    text-align: center;
+}
+@media(max-width: 767px){
+    .wars .tufan-al-aksa .victims .wounded{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.wars .count-wars h2{
+    color: var(--green-color);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.wars .count-wars .count{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 20px;
+}
+@media(max-width: 767px){
+    .wars .count-wars .count{
+        flex-direction: column;
+        width: 250px;
+        margin-left: -40px;
+    }
+}
+/* End Wars */
 /* Start Media */
 .our-media h2{
     margin-top: 100px;
@@ -296,6 +873,7 @@ ul{
     font-weight: normal;
     color: var(--white-color);
     margin-bottom: -24px;
+    text-transform: uppercase;
 }
 .our-media .medias{
     display: grid;
@@ -314,7 +892,7 @@ ul{
 @media(max-width: 767px){
     .our-media .medias{
         grid-template-columns: minmax(200px, 1fr);
-        margin: 80px 35px;
+        margin: 80px 30px;
         gap: 10px;
     }
     .our-media h2{
