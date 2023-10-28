@@ -921,9 +921,71 @@ ul{
     margin-top: 70px;
 }
 .our-media .medias .media a i.instagram{
-    color: var(--red-color);
+    color: #e1306c;
 }
 .our-media .medias .media a i.telegram{
-    color: var(--green-color);
+    color: #0088cc;
+}
+.our-media .medias .media a i.youtube{
+    color: #ff0000;
 }
 /* End Media */
+/* Start Boycott */
+.boycott h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: var(--white-color);
+    margin-bottom: -24px;
+    text-transform: uppercase;
+}
+.boycott h2 span{
+    color: var(--red-color);
+}
+@media(max-width: 767px){
+    .boycott h2{
+        font-size: 20px;
+    }
+}
+.trade-marks{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.trade-marks h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: var(--white-color);
+    background-color: var(--red-color);
+    width: fit-content;
+    padding: 20px 20px;
+    margin: auto;
+}
+.trade-marks .img{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 80px;
+    gap: 20px;
+}
+@media(max-width: 767px){
+    .trade-marks h3{
+        font-size: 22px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .trade-marks .img{
+        grid-template-columns: minmax(200px, 1fr);
+        margin: auto;
+    }
+    .trade-marks .img img{
+        width: 100%;
+        margin-left: 5px;
+    }
+}
+.trade-marks .img img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+/* End Boycott */
