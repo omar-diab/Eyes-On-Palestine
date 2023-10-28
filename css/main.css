@@ -973,6 +973,7 @@ ul{
         font-size: 22px;
         margin-bottom: 50px;
         margin-top: 50px;
+        width: 100%;
     }
     .trade-marks .img{
         grid-template-columns: minmax(200px, 1fr);
